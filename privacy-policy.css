@@ -2,7 +2,7 @@ body {
     background: radial-gradient(#333, #111);
     color: white;
     text-align: left;
-    margin: 10em 10em;
+    margin: 15vh 15vw;
 }
 
 .header {
@@ -27,12 +27,13 @@ footer {
     color: white;
     padding: 1em;
     text-align: center;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
     font-family: system-ui;
     font-size: 0.5em;
+    background: rgba(0, 0, 0, 0.5); /* black with 0.5 alpha */
 }
 
 footer a {
