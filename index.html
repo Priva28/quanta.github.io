@@ -16,10 +16,7 @@
 </head>
 
 <body>
-    <video class="background" autoplay loop muted playsinline>
-        <source src="https://user-images.githubusercontent.com/40876121/209416048-cf5b7b0a-6780-4cae-bd9a-f2976dff2f08.mp4" type="video/mp4">
-        <source src="https://github.com/Priva28/quanta.github.io/blob/main/apoc%20dreams%20quanta.mp4?raw=true" type="video/mp4">
-    </video>
+    <video src="" id="myvideo" type="video/mp4" class="background" autoplay loop muted playsinline></video>
     <div>
         <h1 class="header">Quanta</h1>
         <p class="subtext">Stream your vinyl.</p>
@@ -35,14 +32,7 @@
             <a href="mailto:support@quantavinyl.app?subject=Bug report or feature request.&body=Describe the issue you are facing with as much detail as possible. If it is an audio issue, please describe your setup. Include screenshots if applicable.">Support</a>
         </div>
     </footer>
-    <script>
-        // Randomly select one of the two videos
-        const videos = document.querySelectorAll('video');
-        const randomVideo = videos[Math.floor(Math.random() * videos.length)];
-
-        // Set the selected video as the background
-        document.body.style.background = `url(${randomVideo.src})`;
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
